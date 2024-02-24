@@ -1,3 +1,6 @@
+![image](https://github.com/MightyPart/MarchingCubes/assets/66361859/f410f3de-a711-487d-93c6-579af5b6e2bf)
+
+
 # Marching Cubes
 
 
@@ -25,7 +28,7 @@ local Iter = 1
 for x = 0, VOXEL_RES do
 	for y = 0, VOXEL_RES do
 		for z = 0, VOXEL_RES do
-			Values[Iter] = math.noise((x * VOXEL_RES) / 128, (y * VOXEL_RES) / 128, (z * VOXEL_RES) / 128)
+			Values[Iter] = math.noise((x * VOXEL_RES) / 64, (y * VOXEL_RES) / 64, (z * VOXEL_RES) / 64)
 			Iter += 1
 		end
 	end
