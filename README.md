@@ -1,11 +1,15 @@
 # Marching Cubes
 
-# Settings
+
+## Settings
 `VoxelResolution: number` | The amount of voxels in each direction (if the VoxelResolution is 10 then there would be `10 x 10 x 10` voxels in total).
+
 `IsoValue: number` | The value which represents the surface of the mesh.
+
 `Inverted: boolean` | Specifies the winding mode of the triangles (false is clockwise, true is counter-clockwise).
 
-# Example
+
+## Example
 
 ```lua
 --!strict
