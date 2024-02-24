@@ -5,9 +5,9 @@ type Settings = {
 }
 
 local Settings: Settings = {
-	VoxelResolution = 20,
+	VoxelResolution = 10,
 	IsoValue = 0,
-	Inverted = false
+	Inverted = true
 }
 
 return Settings
